@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    height: 100%;
+    background: #E95420;
+    font-family: Ubuntu;
+    color: #5E2750;
+}
+
+center {
+    height: 100%;
+}
+
+#socicons > a > img {
+    height: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#footer {
+    font-family: Ubuntu Condensed;
+    border-top: 1px dashed #E95420;
+    padding: 7px 3px 5px 3px;
+    font-size: 12px;
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#menu > div {
+    display: inline-block;
+}
+
+.page {
+    margin-top: 5px;
+    border-top: 1px dashed #FFFFFF;
+    background: white;
+    border: 3px solid white;
+    width: 90%;
+    color: #5E2750;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+#menuFrame {
+    border: none;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}

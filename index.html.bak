@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>scoutchorton</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
+        <link rel="icon" href="./scoutcicon.png" type="image/png">
+        <script>
+        function fadingin(){
+            var element = document.getElementById("navt");
+            fade(element);
+        }
+        </script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <!-- Firebase Start -->
+        <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-messaging.js"></script>
+    <!-- Firebase End  -->
+    <!-- Firebase Scripts Start -->
+    <script src="https://scoutchorton.github.io/firebase/firebaseTools.js"></script>
+    <!-- firebase Scripts End -->
+    </head>
+    <body>
+        <p style="display: none;" id="fbHits"></p>
+        <iframe id="menuFrame" src="https://scoutchorton.github.io/nav.html"></iframe>
+        <center>
+            <div class="page" style="height: 650px;">
+                <br>
+                <u style="font-size: 20px;">New scoutchorton website!!</u><br>
+                <br>
+                Now, things should be here.<br>
+                I don't have a proper method of updating this, other than literally editing the file from my computer, so it'll be tough.<br>
+                <br>
+                <br>
+                Todos:
+                <ul>
+                    <li>Start Blog layout and transfer few posts</li>
+                    <li>Add submenu to Programming</li>
+                    <li>Spruce things up a bit (make it more 2016, not 1998)</li>
+                    <li>Add personal flair (have to get that Ubuntu font!)</li>
+                    <li>Actually add pages</li>
+                </ul>
+                <a href="./EnglishVocab">English Vocab page</a>
+                <!-- Click <a href="./install.sh" download>here</a> to download the Linux installer for my Python Line Grapher! -->
+            </div>
+        </center>
+        <div id="footer">
+            <span style="text-align: left;"><!--This site is no longer hosted by Github Pages. Suck it Microsoft!--></span>
+            <br>
+            <table width="100%">
+                <tr>
+                    <td style="text-align: left;" width="33%"></td><td id="socicons" align="center" ><a href="https://www.youtube.com/user/scoutchorton" target="_blank"><img src="yousocicon.png"></a><a href="https://github.com/scoutchorton" target="_blank"><img src="gitsocicon.png"></a><a href="https://plus.google.com/103984685841390951470" target="_blank"><img src="gooplussocicon.png"></a></td><td style="text-align: right;" width="33%">Designed and maintained by scoutchorton.</td>
+                </tr>
+            </table>
+        </div>
+        <script>
+    	    setTimeout(function(){updateHits("home"); console.log("Hits updated.");}, 2500);
+	    </script>
+    </body>
+</html>

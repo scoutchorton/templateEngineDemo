@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>scoutchorton</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
+        <link rel="icon" href="./scoutcicon.png" type="image/png">
+        <link rel="stylesheet" type="text/css" href="./nav.css" />
+        <script>
+        function fadingin(){
+            var element = document.getElementById("navt");
+            fade(element);
+        }
+        </script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <!-- Firebase Start -->
+        <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-messaging.js"></script>
+    <!-- Firebase End  -->
+    <!-- Firebase Scripts Start -->
+    <script src="https://scoutchorton.github.io/firebase/firebaseTools.js"></script>
+    <!-- firebase Scripts End -->
+    </head>
+    <body>
+        <p style="display: none;" id="fbHits"></p>
+        
+        <!--Navigation code-->
+        <div id="menu">
+            <div style="display: inline-block; margin-right: 0;">
+                <table cellpadding="0" id="navt">
+                    <tbody>
+                        <tr>
+                            <td id="face" style="text-align: center; vertical-align: middle;"><a target="_blank" href="http://scoutchorton.io"><img src="./scoutcicon.png" /></a></td>
+                            <td class="nav"><a target="_blank" class="navi">Photography</a></td>
+                            <td class="nav"><a target="_blank" class="navi">Tools</a></td>
+                            <td class="nav"><a target="_blank" class="navi">Blog</a></td>
+                            <td class="nav"><a target="_blank" href="http://scoutchorton.io/BibleThoughts" class="navi">Bible Thoughts</a></td>
+                            <td class="nav"><a target="_blank" href="https://scoutchorton.weebly.com" class="navi">Weebly</a></td>
+                            <td class="nav"><a target="_blank" class="navi">Programming</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="display: inline-block;">
+                <img id="menuimg" src="./menu.svg" />
+            </div>
+        </div>
+        
+        <center>
+	  <div class="page" style="height: 650px;">
+            <|PAGE_CONTENT|>
+	  </div>
+        </center>
+        <div id="footer">
+            <!--This site is no longer hosted by Github Pages. Suck it Microsoft!-->
+            <table width="100%">
+                <tr>
+                    <td style="text-align: left;" width="33%">Served with Node.js, Express, Ubuntu Server, and Google Domains.</td><td id="socicons" align="center" ><a href="https://www.youtube.com/user/scoutchorton" target="_blank"><img src="./yousocicon.png"></a><a href="https://github.com/scoutchorton" target="_blank"><img src="./gitsocicon.png"></a><a href="https://plus.google.com/103984685841390951470" target="_blank"><img src="./gooplussocicon.png"></a></td><td style="text-align: right;" width="33%">Designed and maintained by scoutchorton.</td>
+                </tr>
+            </table>
+        </div>
+        <script>
+    	    setTimeout(function(){updateHits("home"); console.log("Hits updated.");}, 2500);
+	    </script>
+    </body>
+</html>

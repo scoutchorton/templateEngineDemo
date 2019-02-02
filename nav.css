@@ -1,0 +1,64 @@
+#face {
+    margin: 0px;
+    padding: 3px;
+    height: 100px;
+    width: 10%;
+}
+
+#navt {
+    margin-top: 0;
+    width: auto;
+    height: auto;
+    background: #5E2750;
+    color: #E95420;
+}
+
+#navt > tbody {
+    width: 25%;
+}
+
+#navt > tbody > tr {
+    width: 25%;
+}
+
+#menuimg {
+    margin-bottom: 50%;
+    margin-left: 5px;
+}
+
+#menu {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    margin-left: -1079.7px;
+    transition: margin 2.5s;
+    width: 1135px;
+}
+
+#menu:hover {
+    margin-left: 0%;
+    transition: margin 1s;
+}
+
+
+.nav{
+    font-family: Ubuntu Condensed;
+    margin: 0px !important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 3px;
+    height: 33%;
+    width: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+.navi{
+    background: #5E2750;
+    color: #E95420;
+    padding: 10px;
+}
+.navi:hover {
+    background: #E95420;
+    color: #5E2750;
+}
